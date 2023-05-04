@@ -60,3 +60,5 @@ INSERT INTO Products (ProductID, Name, Price, CategoryID) VALUES
 SELECT Products.ProductID, Products.Name, Products.Price, Categories.Name AS Category
 FROM Products
 INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
+
+SELECT Name, CategoryID, COUNT(*) as Count FROM Categories GROUP BY CategoryID, Name

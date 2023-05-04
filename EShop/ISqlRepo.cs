@@ -4,7 +4,7 @@ internal interface ISqlRepo
 {
     void ListCategories();
 
-    void ListCategoriesProducts();
+    void ListCategoriesProducts(int input);
 
     void ListOrders();
 

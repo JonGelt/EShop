@@ -1,6 +1,8 @@
 ﻿namespace EShop;
 
-public class Category
+internal class Category
 {
+    public int CategoryId { get; set; }
+
     public string CategoryName { get; set; }
 }
